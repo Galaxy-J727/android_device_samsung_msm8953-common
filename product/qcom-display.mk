@@ -1,5 +1,10 @@
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.mapper@2.0-impl \
+    android.hardware.memtrack@1.0-impl \
     AdvancedDisplay \
     copybit.msm8953 \
     gralloc.msm8953 \
@@ -8,9 +13,9 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libqdMetaData
 
-# LiveDisplay native
+# RenderScript HAL
 PRODUCT_PACKAGES += \
-    libjni_livedisplay
+    android.hardware.renderscript@1.0-impl
 
 # Permissions
 PRODUCT_COPY_FILES += \
