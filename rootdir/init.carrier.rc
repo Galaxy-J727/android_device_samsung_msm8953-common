@@ -128,7 +128,7 @@ on boot
 		group system inet
 
 # IMS Stack
-service imsd /system/bin/imsd
+service imsd /vendor/bin/imsd
     class main
     socket imsd stream 0660 system system
     user root

@@ -154,7 +154,7 @@ service qseecomd /vendor/bin/qseecomd
 #   user system
 #   group system net_raw
 
-service perfd /system/vendor/bin/perfd
+service perfd /vendor/bin/perfd
    class main
    user root
    disabled
@@ -174,7 +174,7 @@ service thermal-engine /vendor/bin/thermal-engine
    socket thermal-recv-passive-client stream 0666 system system
    group root
 
-service time_daemon /system/bin/time_daemon
+service time_daemon /vendor/bin/time_daemon
    class late_start
    user root
    group root readproc
