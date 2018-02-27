@@ -187,7 +187,6 @@ vendor/lib64/libmm-qdcm.so|8127e34cf40242e17915da661271bf8c94bfa364
 vendor/lib64/libmmQSM.so|2c5bbaa9900775019273d399aba44fcafa1e5a1a
 vendor/lib64/librs_adreno.so|7ce26948085f8e33b81378074d39d2ef006de2a3
 vendor/lib64/librs_adreno_sha1.so|4ddf57459355154386dbda1f5d4f29a0a70223ec
-vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
 
 # Display calibration - from oneplus3 OB24 / OB15
 etc/permissions/com.qti.snapdragon.sdk.display.xml|bd2a3394bdd6ec4e94fa6a59e816a97e89940ab6
