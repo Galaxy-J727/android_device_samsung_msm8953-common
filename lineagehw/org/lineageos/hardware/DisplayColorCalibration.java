@@ -23,7 +23,7 @@ import android.os.ServiceManager;
 import android.os.SystemProperties;
 import android.util.Slog;
 
-import org.cyanogenmod.internal.util.FileUtils;
+import org.lineageos.internal.util.FileUtils;
 
 public class DisplayColorCalibration {
 
