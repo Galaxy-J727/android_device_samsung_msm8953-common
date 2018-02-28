@@ -72,6 +72,12 @@ lib/libbt-aptX-ARM-4.2.2.so
 # Camera - Kuntao
 vendor/lib/libllvd_smore.so|9aae0936cfb6cb11dabd12eab73111b0
 
+# Camera
+vendor/lib64/libexifa.so
+vendor/lib64/libjpega.so
+vendor/lib/libexifa.so
+vendor/lib/libjpega.so
+
 # DRM
 bin/qseecomd:vendor/bin/qseecomd
 vendor/lib64/lib-sec-disp.so
