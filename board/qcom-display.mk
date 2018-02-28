@@ -8,6 +8,7 @@ USE_OPENGL_RENDERER := true
 TARGET_USES_NEW_ION_API :=true
 BOARD_USES_ADRENO := true
 TARGET_USES_OVERLAY := true
+TARGET_USES_GRALLOC1 := true
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
