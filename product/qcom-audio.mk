@@ -20,10 +20,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     hardware/qcom/audio-caf/msm8996/configs/msm8953/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     hardware/qcom/audio-caf/msm8996/configs/msm8953/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    hardware/qcom/audio-caf/msm8996/configs/msm8953/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     hardware/qcom/audio-caf/msm8996/configs/msm8953/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
-    hardware/qcom/audio-caf/msm8996/configs/msm8953/audio_output_policy.conf:system/etc/audio_output_policy.conf \
-    hardware/qcom/audio-caf/msm8996/configs/msm8953/audio_policy.conf:system/etc/audio_policy.conf
+    hardware/qcom/audio-caf/msm8996/configs/msm8953/audio_output_policy.conf:system/etc/audio_output_policy.conf
 
 PRODUCT_COPY_FILES += \
     hardware/qcom/audio-caf/msm8996/configs/msm8953/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
